@@ -2,10 +2,10 @@ Download and install Anaconda (Python 3+)
 
 Open the Anaconda Prompt and go to the labelImg directory
 
-conda install pyqt=5
+pip install pyqt5
 
 
-conda install -c anaconda lxml
+pip install lxml
 
 
 pyrcc5 -o libs/resources.py resources.qrc
